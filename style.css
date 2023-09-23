@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #2B1821;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 50px;
+    gap: 10px;
+}
+.img-logo{
+    width: 50px;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo-section{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.conteudo-section h1{
+    font-size: 62px;
+}
+.conteudo-section p{
+    font-size: 32px;
+    
+}
+.section-tempo{
+    display: flex;
+    flex-direction: column;
+    background-color: #020232;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.div-flex{
+    display: flex;
+   justify-content: space-around;
+}
+.botao{
+    background-color: #5E17EB;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+   align-self: center;
+}
+.botao:hover{
+    cursor: pointer;
+}
+.rodape{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.timer{
+    font-size: 30px;
+}
+.kcal{
+    font-size: 30px;
+}
+
+@media(max-width: 740px){
+  .conteudo{
+    flex-direction: column;
+  }
+
+}
